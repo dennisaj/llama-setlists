@@ -4,7 +4,7 @@ from typing import Optional
 import os
 import aiohttp
 
-@params({"itemsPerPage": "100"})
+#@params({"itemsPerPage": "100"})
 @headers({'Accept': 'application/json'})
 @get
 def get_json(): """Template for GET request that consumes and produces JSON."""
